@@ -14,7 +14,7 @@ const Header = props => (
 const Menu = props => (
   <menu>
     <div onClick={props.handleClick}>
-      <p id={props.id}>{props.name}</p>
+      <a id={props.id}>{props.name}</a>
     </div>
   </menu>
 );
