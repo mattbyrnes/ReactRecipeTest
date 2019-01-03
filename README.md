@@ -1,2 +1,0 @@
-# ReactRecipeTest
-Created with CodeSandbox

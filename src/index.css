@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+header {
+  color: #fff;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  text-indent: 20px;
+}
+
+menu {
+  color: #fff;
+  width: 100px;
+  background-color: #111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+}
+
+.recipe-col {
+  position: relative;
+  height: 90%;
+  width: 50%;
+  background: #eee;
+  float: right;
+}
+
+.recipe-img {
+  height: 30%;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  overflow: hidden;
+}
+
+.recipe-name {
+  color: white;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  background: blue;
+  padding: 10px;
+}
+
+.recipe-ingredients {
+  position: relative;
+  width: 45%;
+  float: left;
+}
+
+.recipe-instructions {
+  position: relative;
+  width: 45%;
+  float: left;
+}
+
+.search-col {
+  position: relative;
+  width: 50%;
+  background: #fff;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+input {
+  text-indent: 10px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #ddd;
+  width: 50%;
+  margin-right: 20px;
+}
+
+button {
+  position: relative;
+  border-radius: 5px;
+  height: 32px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  width: 20%;
+}
+
+.recipe-card {
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+}
