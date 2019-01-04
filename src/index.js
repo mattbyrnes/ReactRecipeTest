@@ -11,13 +11,13 @@ const Header = props => (
   </header>
 );
 
-const Menu = props => (
-  <menu>
-    <div onClick={props.handleClick}>
-      <a id={props.id}>{props.name}</a>
-    </div>
-  </menu>
-);
+// const Menu = props => (
+//   <menu>
+//     <div onClick={props.handleClick}>
+//       <a id={props.id}>{props.name}</a>
+//     </div>
+//   </menu>
+// );
 
 const DirectoryView = props => (
   <div className="search-col">
@@ -184,7 +184,6 @@ class App extends React.Component {
           handleClick={this.handleClick}
           selectRecipe={this.selectRecipe}
         />
-        <Menu />
         <DetailView
           name={this.state.recipes[this.state.viewRecipe].name}
           image={this.state.recipes[this.state.viewRecipe].image}
