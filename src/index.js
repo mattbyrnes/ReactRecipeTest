@@ -120,7 +120,7 @@ class App extends React.Component {
       },
       {
         id: 3,
-        image: pizza,
+        image: ramennoodles,
         name: "Recipe Three",
         ingredients: ["Item One", "Item Two", "Item Three"],
         instructions: ["Step One", "Step Two", "Step Three"]
